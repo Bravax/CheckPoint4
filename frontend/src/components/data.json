@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "brand": "Toyota",
+    "model": "Corolla",
+    "year": 2022,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/92/1919_Ford_Model_T_Highboy_Coupe.jpg"
+    ],
+    "text": "Une voiture fiable et économique."
+  },
+  {
+    "id": 2,
+    "brand": "Honda",
+    "model": "Civic",
+    "year": 2021,
+    "images": [],
+    "text": "Un mélange de sportivité et d'économie de carburant."
+  },
+  {
+    "id": 3,
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 2023,
+    "images": [],
+    "text": "Une voiture emblématique avec une performance exceptionnelle."
+  }
+]

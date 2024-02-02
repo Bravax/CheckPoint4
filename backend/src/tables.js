@@ -3,10 +3,10 @@
 /* ************************************************************************* */
 
 // Import the manager modules responsible for handling data operations on the tables
-const ItemManager = require("./models/ItemManager");
+const carManager = require("./models/carManager");
 
 const managers = [
-  ItemManager,
+  carManager,
   // Add other managers here
 ];
 

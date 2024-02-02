@@ -1,41 +1,34 @@
-import Counter from "./components/Counter";
-import logo from "./assets/logo.svg";
-
-import "./App.css";
+import React from "react";
+import { Link } from "react-router-dom";
+import Cadillac from "./assets/cadillacD.png";
+import roofTop from "./assets/roofTop.svg";
+import "./App.scss";
 
 function App() {
+  const handleFirstClick = () => {};
+  // const handleSecondClick = () => {};
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React !</p>
-
-        <Counter />
-
-        <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
+    <main>
+      <section className="title">
+        <h1>Véhicules d'exception et de légende</h1>
+      </section>
+      <section className="motor-180">
+        <img src={Cadillac} alt="vue de face d'une cadillac" />
+        <Link to="/ranking" onClick={handleFirstClick}>
+          <img src={roofTop} alt="Coffre de toit" className="roof-top" />
+          <b className="text-rf">Un classement</b>
+        </Link>
+        <Link to="/history">
+          <h5
+            className="numberplate"
+            // onClick={handleSecondClick}
           >
-            Learn React
-          </a>
-          {" | "}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
-    </div>
+            Une histoire
+          </h5>
+        </Link>
+      </section>
+    </main>
   );
 }
 
