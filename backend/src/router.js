@@ -16,11 +16,8 @@ router.get("/cars", carControllers.browse);
 router.get("/cars/:id", carControllers.read);
 
 // Route to add a new item
-router.post("/cars", carControllers.add);
 
 // Route to delete a car
-
-router.delete("/car", carControllers.deleteCar);
 
 /* ************************************************************************* */
 

@@ -6,7 +6,6 @@ import "./App.scss";
 
 function App() {
   const handleFirstClick = () => {};
-  // const handleSecondClick = () => {};
 
   return (
     <main>
@@ -19,13 +18,9 @@ function App() {
           <img src={roofTop} alt="Coffre de toit" className="roof-top" />
           <b className="text-rf">Un classement</b>
         </Link>
+
         <Link to="/history">
-          <h5
-            className="numberplate"
-            // onClick={handleSecondClick}
-          >
-            Une histoire
-          </h5>
+          <span className="numberplate">Une histoire</span>
         </Link>
       </section>
     </main>
