@@ -1,19 +1,65 @@
+.title {
+  width: 100vw;
+  height: 20vh;
+  background-color: #22162b;
+  color: #e5e5e5;
+  margin: 0;
+  line-height: 10vh;
+}
+
+.motor-180 {
+  background-image: url("./assets/motorP90.jpg");
+  width: 100vw;
+  height: 10vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
 .fields-of-view {
   width: 95vw;
-  height: 70vh;
+  height: 60vh;
   background-color: #22162b;
 
-  .article {
+  .car-pictures img {
+    top: 61.5vh;
+    width: 95vw;
+    height: auto;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: left;
+    color: e5e5e5;
+    font-size: small;
+  }
+  .car-details {
     color: #e5e5e5;
     margin-left: 2vw;
     font-size: larger;
+    width: auto;
+  }
 
-    img {
+  .navigation-buttons {
+    position: absolute;
+    width: 100%;
+    top: 50vh;
+    .following {
       position: absolute;
-      top: 60vh;
-      width: 93vw;
-      margin-left: 0;
-      height: auto;
+      top: 10vh;
+      width: 20vw;
+      margin-left: 68vw;
+      border-radius: 25%;
+    }
+    .previus {
+      position: absolute;
+      top: 10vh;
+      width: 20vw;
+      margin-left: 8vw;
+      border-radius: 25%;
     }
   }
 }
