@@ -3,12 +3,14 @@
   height: 20vh;
   background-color: #22162b;
   color: #e5e5e5;
+  margin: 0;
+  line-height: 10vh;
 }
 
 .motor-180 {
   background-image: url("./assets/motorP90.jpg");
   width: 100vw;
-  height: 80vh;
+  height: 10vh;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -16,11 +18,11 @@
 
 .fields-of-view {
   width: 95vw;
-  height: 70vh;
+  height: 60vh;
   background-color: #22162b;
 
   .car-pictures img {
-    top: 63vh;
+    top: 61.5vh;
     width: 95vw;
     height: auto;
   }
@@ -47,14 +49,14 @@
     top: 50vh;
     .following {
       position: absolute;
-      top: 11.5vh;
+      top: 10vh;
       width: 20vw;
       margin-left: 68vw;
       border-radius: 25%;
     }
     .previus {
       position: absolute;
-      top: 11.5vh;
+      top: 10vh;
       width: 20vw;
       margin-left: 8vw;
       border-radius: 25%;

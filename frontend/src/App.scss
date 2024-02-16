@@ -2,7 +2,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  width: 100vw;
 
   .title {
     width: 100vw;
@@ -18,18 +18,17 @@ main {
   }
 
   .motor-180 {
-    background-image: url("./assets/motorP90.jpg");
+    background-image: url("./assets/motorP180.jpg");
     width: 100vw;
     height: 80vh;
     background-size: cover;
     display: flex;
     justify-content: center;
   }
-
   img {
     position: absolute;
     top: 40vh;
-    height: 36vh;
+    height: 35vh;
   }
   .roof-top {
     position: absolute;
@@ -37,7 +36,6 @@ main {
     top: 44vh;
     height: 2.8vh;
   }
-
   .text-rf {
     position: absolute;
     top: 44vh;
@@ -45,7 +43,6 @@ main {
     color: #e5e5e5;
     z-index: 5;
   }
-
   .numberplate {
     position: absolute;
     background-color: #22162b;
@@ -59,51 +56,52 @@ main {
     text-align: center;
     line-height: 4vh;
   }
+}
 
-  @media screen and (min-width: 600px) {
-    h1 {
-      margin: 6vh;
-      font-size: 4rem;
-      text-align: center;
-    }
+@media screen and (min-width: 600px) {
+  h1 {
+    margin: 6vh;
+    font-size: 4rem;
+    text-align: center;
+  }
 
-    .motor-180 {
-      background-image: url("./assets/motor.png");
-      background-size: contain;
-    }
-    img {
-      position: absolute;
-      top: 25vh;
-      height: 70vh;
-    }
-    .roof-top {
-      position: absolute;
-      top: 31.2vh;
-      left: 39.2vw;
-      height: 5vh;
-    }
+  .motor-180 {
+    background-image: url("./assets/motor.png");
+    background-size: contain;
+  }
 
-    .text-rf {
-      position: absolute;
-      top: 31vh;
-      left: 44.6vw;
-      color: #e5e5e5;
-      font-size: x-large;
-    }
+  img {
+    position: absolute;
+    top: 25vh;
+    height: 70vh;
+  }
+  .roof-top {
+    position: absolute;
+    top: 31.2vh;
+    left: 39.2vw;
+    height: 5vh;
+  }
 
-    .numberplate {
-      position: absolute;
-      background-color: #22162b;
-      top: 75vh;
-      left: 45.2vw;
-      border: solid 1px 22162b;
-      border-radius: 15% 15% 25% 25%;
-      width: 8vw;
-      height: 7vh;
-      color: #e5e5e5;
-      text-align: center;
-      font-size: large;
-      line-height: 7vh;
-    }
+  .text-rf {
+    position: absolute;
+    top: 31vh;
+    left: 44.6vw;
+    color: #e5e5e5;
+    font-size: x-large;
+  }
+
+  .numberplate {
+    position: absolute;
+    background-color: #22162b;
+    top: 75vh;
+    left: 45.2vw;
+    border: solid 1px 22162b;
+    border-radius: 15% 15% 25% 25%;
+    width: 8vw;
+    height: 7vh;
+    color: #e5e5e5;
+    text-align: center;
+    font-size: large;
+    line-height: 7vh;
   }
 }
