@@ -6,70 +6,84 @@ main {
 
   .title {
     width: 100vw;
-    height: 20vh;
+    height: 15vh;
     background-color: #22162b;
     color: #e5e5e5;
   }
 
   h1 {
-    margin: 6vh;
-    font-size: 2rem;
+    margin-top: 2vh;
+    font-size: 3rem;
     text-align: center;
   }
 
   .motor-180 {
     background-image: url("./assets/motorP180.jpg");
     width: 100vw;
-    height: 80vh;
+    height: 85vh;
     background-size: cover;
     display: flex;
     justify-content: center;
   }
+  .object {
+    border: 1px #22162b solid;
+    margin-top: 3vh;
+    background-color: #e5e5e5;
+    width: 80vw;
+    height: 28vh;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 2.5rem;
+  }
   img {
     position: absolute;
-    top: 40vh;
-    height: 35vh;
+    top: 55vh;
+    height: 30vh;
   }
   .roof-top {
     position: absolute;
-    left: 24.3vw;
-    top: 44vh;
-    height: 2.8vh;
+    left: 29vw;
+    top: 58.2vh;
+    height: 2.3vh;
   }
   .text-rf {
     position: absolute;
-    top: 44vh;
-    left: 37vw;
+    top: 58.6vh;
+    left: 45vw;
+    font-size: x-large;
     color: #e5e5e5;
     z-index: 5;
   }
   .numberplate {
     position: absolute;
     background-color: #22162b;
-    top: 63vh;
-    left: 39vw;
+    top: 76.5vh;
+    left: 42vw;
     border: solid 1px 22162b;
     border-radius: 15% 15% 25% 25%;
-    width: 20vw;
-    height: 4vh;
+    width: 18vw;
+    height: 3.3vh;
     color: #e5e5e5;
     text-align: center;
-    line-height: 4vh;
+    line-height: 3.3vh;
+    font-size: xx-large;
   }
 }
 
 @media screen and (min-width: 600px) {
   h1 {
-    margin: 6vh;
     font-size: 4rem;
-    text-align: center;
   }
 
   .motor-180 {
     background-image: url("./assets/motor.png");
     background-size: contain;
   }
-
+  .object {
+    border: 1px blue solid;
+    background-color: #e5e5e5;
+    font-size: 0.95rem;
+  }
   img {
     position: absolute;
     top: 25vh;
