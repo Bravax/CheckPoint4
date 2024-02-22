@@ -6,7 +6,7 @@ import "./App.scss";
 
 function App() {
   return (
-    <main>
+    <main className="home">
       <header className="title">
         <h1>Véhicules d'exception et de légende</h1>
       </header>

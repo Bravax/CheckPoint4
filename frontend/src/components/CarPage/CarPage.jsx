@@ -22,7 +22,7 @@ function CarPage() {
           <h2>
             {currentCar.brand} {currentCar.model} ({currentCar.year})
           </h2>
-          <p>{currentCar.text}</p>
+          <p className="info-car">{currentCar.text}</p>
         </article>
       )}
 
