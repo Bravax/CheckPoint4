@@ -37,5 +37,4 @@ const migrate = async () => {
   }
 };
 
-// Run the migration function
 migrate();
